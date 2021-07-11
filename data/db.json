@@ -1,0 +1,152 @@
+{
+  "customers": [
+    {
+      "custName": "54645645",
+      "custNumber1": "64564",
+      "custNumber2": "56546456",
+      "custAddress": "456456",
+      "custNotes": "45645645",
+      "guardName": "4564",
+      "guardNumber": "456456",
+      "id": 3
+    },
+    {
+      "custName": "fsdfg",
+      "custNumber1": "54663",
+      "custNumber2": "456456",
+      "custAddress": "456456",
+      "custNotes": "456456",
+      "guardName": "456456",
+      "guardNumber": "456546",
+      "id": 4
+    },
+    {
+      "custName": "البهي",
+      "custNumber1": "4",
+      "custNumber2": "",
+      "custAddress": "٣٤٥",
+      "custNotes": "٣٤٥٣٤",
+      "guardName": "٣٤٥٣٤٥",
+      "guardNumber": "4",
+      "id": 5
+    },
+    {
+      "custName": "احمد اسماعيل ابراهيم",
+      "custNumber1": "01054778484149",
+      "custNumber2": "010154551",
+      "custAddress": "شارع ١٩ من شارع ٤٥",
+      "custNotes": "ملف رقم ٥",
+      "guardName": "محمد احمد",
+      "guardNumber": "01542",
+      "id": 6
+    },
+    {
+      "custName": "احمد سعد محمد",
+      "custNumber1": "010023232",
+      "custNumber2": "",
+      "custAddress": "",
+      "custNotes": "",
+      "guardName": "5345",
+      "guardNumber": "345234",
+      "id": 7
+    },
+    {
+      "custName": "٥٣٤٥٣٤",
+      "custNumber1": "0109805641",
+      "custNumber2": "",
+      "custAddress": "",
+      "custNotes": "",
+      "guardName": "435345345",
+      "guardNumber": "345345",
+      "id": 8
+    },
+    {
+      "custName": "34534253452",
+      "custNumber1": "235345345",
+      "custNumber2": "3452345",
+      "custAddress": "3452345",
+      "custNotes": "2345345",
+      "guardName": "342534",
+      "guardNumber": "52345",
+      "id": 9
+    },
+    {
+      "custName": "sdfasdfdsaf",
+      "custNumber1": "01098056841",
+      "custNumber2": "",
+      "custAddress": "asdfsd",
+      "custNotes": "asdf",
+      "guardName": "fasdf",
+      "guardNumber": "234234",
+      "id": 10
+    },
+    {
+      "custName": "2345345234",
+      "custNumber1": "01098056841",
+      "custNumber2": "532453",
+      "custAddress": "4543253",
+      "custNotes": "342534",
+      "guardName": "425345",
+      "guardNumber": "23452345",
+      "id": 11
+    }
+  ],
+  "income": [
+    {
+      "id": 1,
+      "transactionName": "تحصيل مش عارف اية",
+      "transactionAmount": 200,
+      "transactionDate": "20-10-2020"
+    },
+    {
+      "transactionName": null,
+      "transactionAmount": "200",
+      "transactionDate": "2021-07-10",
+      "id": 2
+    },
+    {
+      "transactionName": "تحصيل قسط من البهي ",
+      "transactionAmount": "200",
+      "transactionDate": "2021-07-10",
+      "id": 3
+    },
+    {
+      "transactionName": "تحصيل قسط من خالد",
+      "transactionAmount": "500",
+      "transactionDate": "2021-07-31",
+      "id": 4
+    },
+    {
+      "transactionName": "بند دخل",
+      "transactionAmount": "55",
+      "transactionDate": "2021-07-23",
+      "id": 5
+    }
+  ],
+  "outcome": [
+    {
+      "id": 1,
+      "transactionName": "شراء مش عارف اية",
+      "transactionAmount": 200,
+      "transactionDate": "20-10-2020"
+    },
+    {
+      "transactionName": "بند مصروفات",
+      "transactionAmount": "50",
+      "transactionDate": "2021-07-10",
+      "id": 2
+    },
+    {
+      "transactionName": "مصاريف شحن",
+      "transactionAmount": "50",
+      "transactionDate": "2021-07-10",
+      "id": 3
+    },
+    {
+      "transactionName": "شراء مش عارف اي كلام للاختبار",
+      "transactionAmount": "500",
+      "transactionDate": "2021-07-10",
+      "id": 4
+    }
+  ]
+}
