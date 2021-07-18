@@ -6,24 +6,26 @@
   <div class="customer_search">
     <input type="text" v-model="customerSearch" placeholder="إبحث عن عميل بالإسم أو رقم الموبايل">
   </div>
-  <div class="customer_list">
+  <div class="customer_list" v-if="!isPending">
     <customerList :customers="customerFilter" @removeCustomer="handleRemoveCustomer($event)"/>
   </div>
+  <div v-else><spinner/></div>
 </template>
 
 <script>
 import getCustomers from "../composable/getCustomers";
 import customerList from "../components/customerList.vue";
+import spinner from "../components/spinner.vue"
 import axios from "axios";
 import { onMounted } from "@vue/runtime-core";
 import { ref , computed } from "vue";
 import getCustomerById from "../composable/getCustomerById";
 
 export default {
-  components:{customerList},
+  components:{customerList , spinner},
   setup() {
     // get the customers list
-    const { customers, load } = getCustomers();
+    const { customers, load , isPending } = getCustomers();
     load();
 
     const handleRemoveCustomer = (id) => {
@@ -42,7 +44,7 @@ export default {
         return customer.custName.match(customerSearch.value) || customer.custNumber1.match(customerSearch.value)
     })})
 
-    return { customers , handleRemoveCustomer , customerSearch , customerFilter , print };
+    return { customers , handleRemoveCustomer , customerSearch , customerFilter , print , isPending };
   },
 };
 </script>
